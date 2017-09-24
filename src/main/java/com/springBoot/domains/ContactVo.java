@@ -13,12 +13,12 @@ public class ContactVo {
 
 
 //    @NotNull(message = "Phone.Number.Not.Null")
-    @NotNull(message = "Phone No must Required")
+    @NotNull(message = "{Phone.Number.Not.Null}")
 //    @Size(min = 10, max = 15,message = "Minimum.size")
-    @Size(min = 10, max = 15,message = "Minimum size 10 and 15")
+    @Size(min = 10, max = 15,message = "{Minimum.size}")
     String phoneNumber;
 
-    @NotNull(message = "user Id cannot Be Null")
+    @NotNull(message = "{User.Id.Not.Null}")
     Long userId;
     String name;
 
